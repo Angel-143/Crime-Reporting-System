@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "1a5b",
+      "username": "aslok",
+      "password": "12345678"
+    },
+    {
+      "id": "a9ff",
+      "username": "rajput",
+      "password": "87654321"
+    },
+    {
+      "id": "28aa",
+      "username": "lipsa",
+      "password": "1234567890",
+      "role": "user"
+    },
+    {
+      "id": "368f",
+      "username": "angel",
+      "password": "12345678",
+      "role": "cop"
+    }
+  ]
+}

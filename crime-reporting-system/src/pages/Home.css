@@ -1,0 +1,20 @@
+.sliding-container {
+    display: flex;
+    align-items: center;
+    animation: slide-right-left 10s linear infinite;
+  }
+  
+  .sliding-text {
+    font-size: 1.5rem; /* Adjusted font size */
+    color: #fbbf24; /* Adjust as needed */
+  }
+  
+  @keyframes slide-right-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

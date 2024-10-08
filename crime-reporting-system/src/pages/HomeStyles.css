@@ -1,0 +1,45 @@
+/* General Styles */
+.min-h-screen {
+    min-height: 100vh;
+  }
+  
+  /* Sliding Content */
+  .sliding-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Sliding Content Hover Effect */
+  .sliding-container:hover .slide {
+    transform: translateX(-100%);
+  }
+  
+  /* Welcome Banner */
+  .welcome-banner {
+    background: linear-gradient(to right, #38b2ac, #63b3ed);
+  }
+  
+  .key-features {
+    background-color: #f6e05e;
+  }
+  
+  .feature-card {
+    background-color: #fff;
+    color: #2d3748;
+  }
+  
+  .sliding-content {
+    background-color: #2d3748;
+  }
+  
+  .footer {
+    background-color: #1a202c;
+    color: #fff;
+  }
+  

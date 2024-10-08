@@ -1,0 +1,32 @@
+/* Add any additional styling if needed */
+
+/* General Page Styles */
+.bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #4fd1c5, #63b3ed, #4c51bf);
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .text-black {
+    color: #000;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  /* Button Styles */
+  .bg-yellow-500 {
+    background-color: #ecc94b;
+  }
+  
+  .bg-yellow-600 {
+    background-color: #d69e2e;
+  }
+  
+  .hover\:bg-yellow-600:hover {
+    background-color: #d69e2e;
+  }
+  

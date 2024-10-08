@@ -1,0 +1,12 @@
+/* News.css */
+
+.news-item {
+  /* Add custom animations or transitions if needed */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+  /* Animate shadow and scale on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
